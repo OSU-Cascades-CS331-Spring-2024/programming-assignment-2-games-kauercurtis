@@ -70,7 +70,7 @@ class Board:
         return False
 
     def is_in_bounds(self, col, row):
-        if (0 <= col < self.cols) and (0<= row < self.rows):
+        if (0 <= col < self.cols) and (0 <= row < self.rows):
             return True
         else:
             return False
